@@ -1,0 +1,169 @@
+#logopic { 
+  padding: 0;
+  margin: 0;
+  width: 350px;
+  height: 210px;
+}
+
+.phoneicon {
+  margin-right: 0;
+}
+
+#logopic {
+  width: 350px;
+  height: 210px;
+}
+
+.servicephone {
+  padding-left: 120px;
+}
+
+@media (max-width: 1024px) {
+  .fa-phone {
+    padding-right: 80px;
+    padding-left: 0;
+  }
+  #logopic{
+    width: 350px;
+    height: 190px;
+  }
+  .elementor-icon-box-content{
+    width: 90px;
+    height: 41px;
+  }
+  /* .elementor-icon-box-icon {
+    width: 110px;
+    margin-right: 10px;
+  } */
+
+ }
+
+ @media (max-width: 767px) {
+   #hidetext {
+     display: none;
+   }
+   #picup {
+     margin-top: 25px;
+   }
+   #movetext {
+     display: flex;
+     margin-left: 195px;
+     text-align: center;
+   }
+   #movetext2 {
+     display: flex;
+     margin-left: 130px;
+     margin-top: 15px;
+     text-align: center;
+   }
+   #movetext3 {
+     display: flex;
+     margin-left: 190px;
+     text-align: center;
+   }
+   .movemoney, .moveload {
+     display: flex;
+     flex-direction: row;
+     width: 100%;
+   }
+   #deletepart {
+     display: none;
+   }
+   #movebottom {
+     margin-bottom: 60px;
+   }
+  #makeiconbig {
+    width: 60px;
+    height: 60px;
+  }
+  #movecontact {
+    margin-top: 30px;
+  }
+  #fixlogos {
+    display: flex;
+    text-align: center;
+    margin-left: 146px;
+  }
+  #fixlinks {
+    display: flex; 
+    flex-direction: row;
+    margin-left: 90.5px;
+  }
+  #fixinstlink {
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+  }
+  #addpaddingtosocials {
+    padding-bottom: 37px;
+  }
+  #moveitdown {
+    margin-bottom: 10px;
+  }
+ }
+
+/* FOR IPHONE */
+
+ @media only screen 
+ and (device-width : 375px) 
+ and (device-height : 812px) 
+ and (-webkit-device-pixel-ratio : 3) {
+  #movetext{
+    margin-left: 110px;
+  }
+  #movetext3 {
+    margin-left: 105px;
+  }
+  #movetext2 {
+    margin-left: 45px;
+  }
+  #fixlogos {
+    margin-left: 59.5px;
+  }
+  #fixlinks {
+    margin-left: 8px;
+  }
+  #fixinstlink {
+    display: none;
+  }
+  #movediv {
+    padding-right: 30px;
+  }
+  .form-control {
+    padding-right: 30px;
+  }
+  #moveitdown {
+    margin-bottom: 10px;
+  }
+  }
+
+
+ .form-row {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+
+@media (max-width: 767px) {
+  #logopic {
+      width: 300px;
+      height: 300px;
+      padding: 0;
+      margin: 0;
+      border: 0;
+  }
+   .wrongwidgetwrap {
+     /* bottom: 100px; */
+   } 
+   /* #fixlogos {
+  margin-left: 59.5px;
+  }
+  #fixlinks {
+    margin-left: 7.5px;
+  }
+  #fixinstlink {
+    display: none;
+  } */
+}
+  
+
